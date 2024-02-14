@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Watching Netflix","Listening to Spotify","Playing GTA VI"];
+const statusMessages = ["pro tip"];
 
 
 let currentIndex = 0;
@@ -74,7 +74,7 @@ function updateStatusAndSendMessages() {
 
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Custom}],
-    status: 'dnd',
+    status: 'streaming',
   });
 
   
