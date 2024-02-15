@@ -74,7 +74,7 @@ function updateStatusAndSendMessages() {
 
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Custom}],
-    status: 'watching',
+    status: 'playing',
   });
 
   
