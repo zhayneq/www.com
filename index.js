@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ['gta 5'];
+const statusMessages = ['truth or dare '];
 
 
 let currentIndex = 0;
@@ -74,7 +74,7 @@ function updateStatusAndSendMessages() {
 
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Custom}],
-    status: 'online',
+    status: 'dnd',
   });
 
   
